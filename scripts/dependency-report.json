@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-09-04T08:55:59.015Z",
+  "status": "READY",
+  "structure": {
+    "src/shared/types": true,
+    "src/shared/utils": true,
+    "src/shared/constants": true,
+    "src/contents": true,
+    "src/background": true,
+    "src/popup": true,
+    "src/options": true
+  }
+}

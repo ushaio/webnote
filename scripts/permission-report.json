@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-09-04T08:56:01.047Z",
+  "manifestValid": true,
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "contextMenus",
+    "downloads"
+  ],
+  "hostPermissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "securityLevel": "ELEVATED",
+  "recommendations": [
+    "包含文件下载权限，确保仅用于导出功能",
+    "具有所有 HTTPS 站点访问权限，确保内容脚本安全"
+  ]
+}

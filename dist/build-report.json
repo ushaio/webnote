@@ -1,0 +1,96 @@
+{
+  "buildTime": "2025-09-04T09:28:47.288Z",
+  "version": "0.1.0",
+  "files": {
+    "assets\\icon-128.png": {
+      "size": 65721,
+      "type": ".png"
+    },
+    "assets\\icon-128.png.txt": {
+      "size": 81,
+      "type": ".txt"
+    },
+    "assets\\icon-128.svg": {
+      "size": 537,
+      "type": ".svg"
+    },
+    "assets\\icon-16.png": {
+      "size": 1097,
+      "type": ".png"
+    },
+    "assets\\icon-16.png.txt": {
+      "size": 79,
+      "type": ".txt"
+    },
+    "assets\\icon-16.svg": {
+      "size": 514,
+      "type": ".svg"
+    },
+    "assets\\icon-32.png": {
+      "size": 4185,
+      "type": ".png"
+    },
+    "assets\\icon-32.png.txt": {
+      "size": 79,
+      "type": ".txt"
+    },
+    "assets\\icon-32.svg": {
+      "size": 523,
+      "type": ".svg"
+    },
+    "assets\\icon-48.png": {
+      "size": 9321,
+      "type": ".png"
+    },
+    "assets\\icon-48.png.txt": {
+      "size": 79,
+      "type": ".txt"
+    },
+    "assets\\icon-48.svg": {
+      "size": 700,
+      "type": ".svg"
+    },
+    "assets\\icon.svg": {
+      "size": 1303,
+      "type": ".svg"
+    },
+    "background.js": {
+      "size": 27232,
+      "type": ".js"
+    },
+    "content.css": {
+      "size": 6405,
+      "type": ".css"
+    },
+    "content.js": {
+      "size": 12476,
+      "type": ".js"
+    },
+    "manifest.json": {
+      "size": 1329,
+      "type": ".json"
+    },
+    "options.html": {
+      "size": 12863,
+      "type": ".html"
+    },
+    "options.js": {
+      "size": 14101,
+      "type": ".js"
+    },
+    "popup.html": {
+      "size": 10685,
+      "type": ".html"
+    },
+    "popup.js": {
+      "size": 13653,
+      "type": ".js"
+    }
+  },
+  "totalSize": 182963,
+  "optimization": {
+    "jsFiles": 0,
+    "cssFiles": 0,
+    "totalOptimized": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "webnote",
+  "displayName": "WebNote - 网页划线笔记",
+  "version": "0.1.0",
+  "description": "Chrome 扩展，支持网页文本划线标注和笔记管理",
+  "author": "WebNote Team",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "npm run icons && node scripts/build.js",
+    "build:prod": "NODE_ENV=production npm run icons && node scripts/build.js",
+    "icons": "node scripts/create-png-icons.js",
+    "validate": "node scripts/validate.js",
+    "type-check": "node scripts/type-check.js",
+    "deps": "node scripts/dependency-manager.js",
+    "styles": "node scripts/style-validator.js",
+    "permissions": "node scripts/permission-validator.js",
+    "setup": "npm run validate && npm run type-check && npm run deps && npm run styles && npm run permissions",
+    "clean": "rimraf dist *.zip assets/*.png",
+    "test": "npm run setup && npm run build",
+    "package": "npm run build && npm run zip",
+    "zip": "cd dist && zip -r ../webnote-extension.zip . -x '*.map' '*.log'",
+    "install-dev": "npm install && npm run setup",
+    "watch": "npm run dev"
+  },
+  "dependencies": {
+    "plasmo": "^0.84.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "typescript": "^5.3.0",
+    "chokidar": "^3.5.3",
+    "rimraf": "^5.0.5"
+  },
+  "manifest": {
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ]
+  }
+}
